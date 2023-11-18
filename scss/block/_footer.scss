@@ -1,0 +1,145 @@
+.footer {
+    background-color: #002529;
+}
+
+.footer__menu_link{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0 0;
+    padding-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer__pages {
+    display: flex;
+    gap: 40px;
+}
+
+.footer__item {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-top: 25px;
+}
+
+.footer__frame {
+    display: flex;
+
+}
+
+.footer__sup {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: 0.6;
+    margin-left: 125px;
+}
+
+
+
+.footer__link{
+    display: flex;
+    gap: 10px;
+    margin-left: 151px;
+    margin-bottom: 44px;
+    padding: 15px 15px;
+}
+
+.footer__text {
+    color: #FFF;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: 0.6;
+}
+
+@media screen and (max-width:800px) {
+
+    .footer__container{
+        padding: 56px 0 0;
+        padding-bottom: 56px;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }    
+    
+    .footer__media{
+        margin-top: 34px;
+        display: flex;
+        height: auto;
+        justify-content: space-between;
+    }
+
+    .footer__frame{
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__sup{
+        text-align: right;
+    }
+
+    .footer__link{
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .footer__container{
+        padding: 66px 0 0;
+        padding-bottom: 66px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer__frame{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__logo_frame{
+        margin-bottom: 24px;
+    }
+
+    .footer__sup{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer__media{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__link{
+        margin-top: 40px;
+        margin-bottom: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer__text{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
